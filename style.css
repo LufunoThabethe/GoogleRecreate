@@ -1,0 +1,70 @@
+body, p{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left:auto;
+    padding: 2em;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 20px;
+    width: 10%;
+}
+main img{
+       width:80%;
+}
+
+main{
+    width: 30%;
+    margin:8em auto;
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:1em;
+    border-radius:20px;
+    border:1px solid gray;
+    position: relative;
+}
+
+.btns{
+    margin-top: 1em;
+
+}
+
+.btns button{
+    padding:1em;
+    border:none;
+}
+
+footer{
+    background-color: rgb(233, 231, 231);
+}
+.ftop{
+    padding:1em;
+}
+.fbottom{
+    padding:1em;
+    display:flex;
+    justify-content: space-between;
+    border-top: solid rgb(218, 214, 214);
+}
+.left a{
+       margin-right:1em;
+}
+.right a{
+    margin-right: 1em;
+}
